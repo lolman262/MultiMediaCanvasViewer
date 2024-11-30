@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 200px;
+  transform: translateX(-100%);
+  transition: transform 0.3s;
+}
+
+.sidebar:hover {
+  transform: translateX(0);
+}
